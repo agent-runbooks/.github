@@ -2,6 +2,8 @@
 
 A runbook is a procedure that a coding agent session executes step by step through subagents. The steps are prompt files, the transitions are a few lines of Python, and the run leaves a record you can read.
 
+![The loop in flow.py of runbook-review-loop on the left, and the steps of one of its runs on the right: review and fix repeat until the review finds nothing](https://raw.githubusercontent.com/agent-runbooks/.github/main/assets/runbook-at-a-glance.png)
+
 - **[skills](https://github.com/agent-runbooks/skills)**: the tools. `agent-runbook-authoring` writes and reviews runbooks, `runbook-viewer` shows the progress of a run.
 - **[gallery](https://github.com/agent-runbooks/gallery)**: ready-made runbooks to run as they are or read as examples.
 - **[throng-mcp](https://github.com/agent-runbooks/throng-mcp)**: an MCP server that runs Claude Code, Codex, OpenCode and other harnesses as subagents of each other, so a runbook step can go to any model.
