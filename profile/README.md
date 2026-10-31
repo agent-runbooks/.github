@@ -7,3 +7,5 @@ A runbook is a procedure that a coding agent session executes step by step throu
 - **[throng-mcp](https://github.com/agent-runbooks/throng-mcp)**: an MCP server that runs Claude Code, Codex, OpenCode and other harnesses as subagents of each other, so a runbook step can go to any model.
 
 New here? [Install the skills](https://github.com/agent-runbooks/skills#install) and ask your agent to turn a procedure you repeat into a runbook: `agent-runbook-authoring` writes it with you. Rather see a run before writing your own? Install [`runbook-review-loop`](https://github.com/agent-runbooks/gallery/tree/main/skills/runbook-review-loop) from the gallery and try it on your next code change: its steps run on your session's own subagents, with nothing else to install.
+
+Maintained by [Maksim Zemskov (@Nodge)](https://github.com/Nodge).
